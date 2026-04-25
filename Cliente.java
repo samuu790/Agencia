@@ -34,4 +34,6 @@ public class Cliente {
     public void MostrarInformacion() {System.out.println(Informacion del clliente \n};
      {System.out.println(nombre+""+apellido""+correo)};
 
+    }
+
  

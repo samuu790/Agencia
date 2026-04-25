@@ -4,14 +4,16 @@ public class Hotel{
     protected String direccion_hotel;
     protected String telefono_hotel;
     protected String correo_hotel;
+    protected String ciudad_hotel;
     String numero_habitaciones;
     
     
-    public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String habitacionesnum ) {
+    public Hotel(String hotelNombre, String hotelDireccion, String hotelTelefono, String hotelCorreo, String hotelCiudad, String habitacionesnum ) {
         this.nombre_hotel = hotelNombre;
         this.direccion_hotel = hotelDireccion;
         this.telefono_hotel = hotelTelefono;
         this.correo_hotel = hotelCorreo;
+        this.ciudad_hotel = hotelCiudad;
         this.numero_habitaciones = habitacionesnum;
     }
 
@@ -19,6 +21,7 @@ public class Hotel{
     public String getDireccionHotel(){return direccion_hotel;}
     public String getTelefonoHotel(){return telefono_hotel;}
     public String getCorreoHotel(){return correo_hotel;}
+    public String getCiudadHotel(){return ciudad_hotel;}
     public String getNumeroHabitaciones(){return numero_habitaciones;}
      
      
